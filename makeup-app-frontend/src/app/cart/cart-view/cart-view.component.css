@@ -1,0 +1,38 @@
+.delete_btn{
+    width: 70px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #b80808;
+    color: rgb(252, 252, 252);
+    border-radius: 50px;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 5px;
+    margin-left: auto;
+    margin-bottom: 10px;
+}
+.mat-list-item {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.product-image{
+    width: 100px;
+    height: 100px; 
+    object-fit: cover;
+    border-radius: 4px; 
+    margin-right: 10px;
+  }
+
+.product-name{
+    font-weight: bold;
+}
+
+.total-price{
+    font-weight: bold;
+    margin-left: auto;
+}

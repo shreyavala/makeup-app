@@ -1,0 +1,18 @@
+<div class ="container-sm">
+    <h2>Your Cart</h2>
+    <mat-card>
+        <mat-list>
+            <mat-list-item *ngFor="let item of cartItems" class ="mat-list-item">
+                <div matListItemTitle  class ="product-name">{{item.product_name}}</div>
+                <div matListItemLine>{{item.product_brand}}</div>
+                <div matListItemLine>{{item.product_price | currency :'USD'}}</div>
+                <img mat-card-image src="assets/images/{{item.product_id}}.jpg" alt="Photo of Product" class ="product-image">
+                <button mat-flat-button color="primary" class ="delete_btn" (click)="onDelete(item)">Delete</button>
+            </mat-list-item>
+            <mat-list-item class ="mat-list-item">
+                <div matListItemTitle  class ="total-price">Total (USD)</div>
+                <div matListItemLine>{{totalPrice| currency :'USD'}}</div>
+            </mat-list-item>
+        </mat-list>
+    </mat-card>
+</div>
