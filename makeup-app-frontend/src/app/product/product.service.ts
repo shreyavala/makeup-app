@@ -23,4 +23,14 @@ export class ProductService {
       })
     );
   }
+
+  // get product by id
+  getProductById(id: string): Observable<Product> {
+    return this.http.get<{ product: Product }>(`${this.apiUrl}/${id}`).pipe(
+      map((response: { product: Product }) => {
+        console.log(response); // Log the response for debugging
+        return response.product;
+      })
+    );
+  }
 }

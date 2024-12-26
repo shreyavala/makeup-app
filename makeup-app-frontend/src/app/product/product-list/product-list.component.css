@@ -43,3 +43,8 @@ mat-card{
 .sort-by{
     margin-left:20px;
 }
+
+.product-link{
+    text-decoration: none;
+    color: inherit;
+}

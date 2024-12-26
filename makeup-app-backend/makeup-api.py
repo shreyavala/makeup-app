@@ -47,7 +47,7 @@ CORS(app, resources={r"/*": {"origins": "*"}})
 def get_all_products():
     return jsonify({"products": data_json_parsed})
 
-# endpoint: get all products by ID
+# endpoint: get product by ID
 @app.route('/products/<string:product_id>', methods=['GET'])
 def get_product_by_id(product_id):
     for product in data_json_parsed:

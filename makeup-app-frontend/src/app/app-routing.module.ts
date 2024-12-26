@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { ProductListComponent } from './product/product-list/product-list.component';
 import {CartViewComponent} from './cart/cart-view/cart-view.component';
+import { ProductDetailComponent } from './product/product-detail/product-detail.component';
 
 const routes: Routes = [
   {
@@ -12,6 +13,9 @@ const routes: Routes = [
   },
   {
     path: 'cart',component:CartViewComponent
+  },
+  {
+    path: 'products/:product_id',component:ProductDetailComponent
   }
 
 ];

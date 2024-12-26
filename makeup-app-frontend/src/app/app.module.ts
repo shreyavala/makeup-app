@@ -3,6 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { RouterModule, Routes } from '@angular/router';
 
 import { ProductModule } from './product/product.module';
 import {CartModule} from './cart/cart.module';
@@ -23,7 +24,8 @@ import {MatButtonModule} from '@angular/material/button';
     ProductModule, 
     HttpClientModule, BrowserAnimationsModule,
     MatToolbarModule, MatButtonModule,
-    CartModule
+    CartModule,
+    RouterModule.forRoot([])
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -10,13 +10,17 @@ import {FlexLayoutModule} from '@angular/flex-layout';
 import { MatSnackBarModule , MatSnackBarHorizontalPosition, MatSnackBarVerticalPosition} from '@angular/material/snack-bar';
 import {MatInputModule} from '@angular/material/input';
 import {MatSelectModule} from '@angular/material/select';
+import { ProductDetailComponent } from './product-detail/product-detail.component';
+
+import {RouterModule, Routes} from '@angular/router';
 
 
 
 
 @NgModule({
   declarations: [
-    ProductListComponent
+    ProductListComponent,
+    ProductDetailComponent
   ],
   imports: [
     CommonModule, 
@@ -26,7 +30,8 @@ import {MatSelectModule} from '@angular/material/select';
     MatIconModule,
     MatSnackBarModule,
     MatInputModule,
-    MatSelectModule
+    MatSelectModule, 
+    RouterModule
   ]
 })
 export class ProductModule { }

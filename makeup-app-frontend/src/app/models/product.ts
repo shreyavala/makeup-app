@@ -5,6 +5,6 @@ export class Product {
     product_name:string="";
     product_price:number=0;
     product_brand:string= "";
-    product_ingredients: string=";"
+    product_ingredients: string=""
 
 }

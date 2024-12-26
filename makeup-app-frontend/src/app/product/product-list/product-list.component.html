@@ -15,6 +15,7 @@
 
   <div fxLayout="row wrap" fxLayoutGap="10px grid">
     <div *ngFor ="let product of filteredProducts" fxFlex="25%">
+      <a [routerLink]="['/products', product.product_id]" class ="product-link">
       <mat-card class="product-card">
           <img mat-card-image src="assets/images/{{product.product_id}}.jpg" alt="Photo of Product" class ="product-image">
           <mat-card-content>
@@ -29,6 +30,7 @@
           </mat-card-actions>
         </mat-card>
         <br>
+      </a>
   </div>
   </div>
 </div>

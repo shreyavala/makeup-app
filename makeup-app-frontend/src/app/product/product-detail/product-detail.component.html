@@ -1,0 +1,25 @@
+<div class="container-sm" fxLayout="row" fxLayoutGap="10px">
+<mat-card class="example-card" appearance="outlined" fxFlex="70">
+    <mat-card-header>
+      <div mat-card-avatar class="example-header-image"></div>
+      <mat-card-title>{{product?.product_name}}</mat-card-title>
+      <mat-card-subtitle>{{product?.product_brand}}</mat-card-subtitle>
+    </mat-card-header>
+    <img mat-card-image src="assets/images/{{product?.product_id}}.jpg" alt="Detailed Photo of Product" class ="product-image-detail">
+    <mat-card-content>
+      <p>Ingredients: {{product?.product_ingredients}}</p>
+    </mat-card-content>
+  </mat-card>
+
+  <mat-card class="smaller-card" appearance="outlined" fxFlex="30">
+    <mat-card-header>
+      <mat-card-title>{{product?.product_price | currency:'USD'}}</mat-card-title>
+    </mat-card-header>
+    <mat-card-actions>
+            <button mat-fab extended color="primary" class ="add_to_cart_btn" (click)="product && onAddToCart(product)">
+              <mat-icon>add_shopping_cart</mat-icon>
+              Add to Cart</button>
+    </mat-card-actions>
+  </mat-card>
+</div>
+  

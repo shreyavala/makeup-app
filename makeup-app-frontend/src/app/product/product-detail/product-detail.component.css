@@ -1,0 +1,31 @@
+.product-image-detail {
+    max-width: 50%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+
+
+  .add_to_cart_btn{
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f8f9fa;
+    color: rgb(226, 138, 195);
+    border: 1px solid rgb(165, 165, 165);
+    border-radius: 50px;
+    font-family: 'Arial', sans-serif;
+}
+
+.add_to_cart_btn:hover{
+  transform: scale(1.05);
+  color:blueviolet;
+  cursor: pointer; 
+}
+
+.smaller-card {
+  height: 125px;
+  display: flex;
+  flex-direction: column;
+}
