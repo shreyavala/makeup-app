@@ -5,6 +5,8 @@ An ecommerce web application for makeup products.
 Front-End: Angular (TypeScript, html, css)   
 Back-End: Flask (Python)
 
+![med (1)](https://github.com/user-attachments/assets/9aaa1d23-664c-40bd-a770-fde42ad0f4a9)
+
 ## How to Run Locally
 Ensure you have Angular & Python installed on your machine.
 
@@ -34,6 +36,3 @@ Ensure you have Angular & Python installed on your machine.
     ```
 3. Open your browser and navigate to `http://127.0.0.1:5000`.
 
-
-## Demo:
-![glam-shop-v1-demo](https://github.com/user-attachments/assets/d8e1d045-62da-4ca7-90fd-f586ec0eb882)
