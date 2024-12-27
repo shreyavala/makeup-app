@@ -33,3 +33,7 @@ Ensure you have Angular & Python installed on your machine.
     python makeup-api.py
     ```
 3. Open your browser and navigate to `http://127.0.0.1:5000`.
+
+
+## Demo:
+![glam-shop-v1-demo](https://github.com/user-attachments/assets/d8e1d045-62da-4ca7-90fd-f586ec0eb882)
