@@ -5,7 +5,7 @@ An ecommerce web application for makeup products.
 Front-End: Angular (TypeScript, html, css)   
 Back-End: Flask (Python)
 
-![med (1)](https://github.com/user-attachments/assets/9aaa1d23-664c-40bd-a770-fde42ad0f4a9)
+![makeup-app-demo](https://github.com/user-attachments/assets/4b40b9f2-74d5-4d71-9422-07e76bc015a1)
 
 ## How to Run Locally
 Ensure you have Angular & Python installed on your machine.
